@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CISCE Circular Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid-row">
+        <div class="header py">
+            <div class="max-width">
+                <h1>CISCE Circular Generator</h1>
+                <h4>by <a href="https://github.com/Jaagrav/" target="_blank">Jaagrav</a> • Sue him if you're gay.</h2>
+              </div>
+          </div>
+      
+          <div class="overflow-auto">
+            <div class="py grid max-width">
+                <div class="circular-cover">
+                    <div class="circular-cover-downloadable">
+                        <div class="circular">
+                            <div class="circular-body">
+                                <img src="./assets/circular-header.png" class="circular-header" alt="CISCE Circular Header" />
+                                <div class="circular-letter-body">
+                                    <div class="circular-letter" readonly="readonly" spellcheck="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id delectus explicabo similique nulla neque perspiciatis assumenda sapiente, aspernatur minus!</div>
+                                    <div class="circular-signature">
+                                        <div class="circular-letter">
+                                            With warm regards,
+                                        </div>
+                                        <div class="circular-letter">
+                                            Yours sincerely,
+                                        </div>
+                                        <img src="./assets/circular-gerry-signature.png" class="circular-gerry-signature" alt="Gerry Signature" />
+                                        <div class="circular-letter">
+                                            Gerry Arathoon
+                                        </div>
+                                        <div class="circular-letter">
+                                            Chief Executive and Secretary
+                                        </div><br />
+                                        <div class="circular-letter">
+                                            Encl. as above
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./assets/circular-watermark.png" class="circular-watermark" alt="CISCE Circular Watermark" />
+                        </div>
+                        <img src="./assets/circular-background.png" class="circular-background" alt="Ciruclar Background">
+                    </div>
+                </div>
+                <div class="">
+                    <div class="letter">
+                        <h3 class="letter-title">Letter</h3>
+                        <textarea class="letter-text" placeholder="Write a letter (HTML Tags like <b> and <i> are accepted)" spellcheck="false"></textarea>
+                    </div>
+                    <div class="download">
+                        <h3 class="download-title">Download</h3>
+                        <div class="download-btns">
+                            <button class="download-btn pdf" file-type="pdf">PDF</button>
+                            <button class="download-btn png" file-type="png">PNG</button>
+                            <button class="download-btn jpg" file-type="jpg">JPG</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+    </div>
+    <script src="./lib/download.js"></script>
+    <script src="./lib/jspdf.min.js"></script>
+    <script src="./lib/html2canvas.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
