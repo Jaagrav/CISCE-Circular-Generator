@@ -24,7 +24,7 @@ document.querySelectorAll(".download-btn").forEach((btn) => {
   btn.addEventListener("click", function (e) {
     console.log(fileType);
     html2canvas(document.querySelector(".circular-cover-downloadable"), {
-      scale: "3",
+      scale: "4",
     }).then(function (canvas) {
       console.log(canvas);
       switch (fileType) {
